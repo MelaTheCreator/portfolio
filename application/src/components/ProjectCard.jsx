@@ -18,7 +18,6 @@ export default function ProjectCard({ project }) {
           </li>
         ))}
       </ul>
-
       {project.link && (
         <a
           href={project.link}
@@ -27,6 +26,18 @@ export default function ProjectCard({ project }) {
           className="inline-block text-sm underline"
         >
           GitHub Repository
+        </a>
+      )}
+      <br />
+
+      {project.site && (
+        <a
+          href={project.site}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block text-sm underline"
+        >
+          Project Website
         </a>
       )}
     </div>
