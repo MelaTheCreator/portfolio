@@ -1,8 +1,10 @@
-import profileImg from "../assets/profile.jpeg";
+import { Link } from "react-router-dom";
 import { useLanguage } from "../context/LanguageContext";
+import profileImg from "../assets/profile.jpeg";
 
 export default function About() {
   const { content, language } = useLanguage();
+  const { about } = content;
 
   return (
     <section className="px-6 py-20 max-w-5xl mx-auto">
@@ -11,36 +13,49 @@ export default function About() {
         <div>
           <img
             src={profileImg}
-            alt="Portrait of Melanie Heß"
+            alt={
+              language === "de"
+                ? "Porträt von Melanie Heß"
+                : "Portrait of Melanie Heß"
+            }
             className="rounded-lg w-full max-w-sm"
           />
         </div>
 
         {/* Text */}
         <div>
-          <h2 className="text-3xl font-bold mb-6">
-            {language === "de" ? "Über mich" : "About me"}
-          </h2>
+          <h2 className="text-3xl font-bold mb-6">{about.heading}</h2>
 
-          <p className="leading-relaxed whitespace-pre-line mb-6">
-            {content.about.text}
+          <p className="leading-relaxed whitespace-pre-line mb-8">
+            {about.text}
           </p>
 
           {/* Personal details */}
-          <ul className="text-sm space-y-2 opacity-80">
+          <ul className="text-sm space-y-2 opacity-80 mb-8">
             <li>
-              <strong>Name:</strong> Melanie Heß
+              <strong>{language === "de" ? "Name:" : "Name:"}</strong> Melanie
+              Heß
             </li>
             <li>
-              <strong>Location:</strong> Leipzig, Germany
+              <strong>{language === "de" ? "Ort:" : "Location:"}</strong>{" "}
+              Leipzig, Germany
             </li>
             <li>
-              <strong>Languages:</strong> German (native), English (fluent)
+              <strong>{language === "de" ? "Sprachen:" : "Languages:"}</strong>{" "}
+              {language === "de"
+                ? "Deutsch (Muttersprache), Englisch (fließend)"
+                : "German (native), English (fluent)"}
             </li>
             <li>
-              <strong>Focus:</strong> Frontend Development (React)
+              <strong>{language === "de" ? "Fokus:" : "Focus:"}</strong>{" "}
+              Frontend Development (React)
             </li>
           </ul>
+
+          {/* CV link */}
+          <Link to="/about/cv" className="underline text-sm inline-block">
+            {language === "de" ? "Lebenslauf ansehen" : "View CV"}
+          </Link>
         </div>
       </div>
     </section>
