@@ -1,14 +1,25 @@
 export const contentEN = {
-  hero: {
+  home: {
     title: "Frontend Web Developer",
     subtitle:
-      "Career changer with an educational background, focusing on clear and accessible web applications.",
+      "Building clear, accessible web applications with React and modern web technologies.",
+    intro:
+      "With a professional background in education, I bring structured thinking, strong communication skills, and a clear focus on user needs into web development. I am currently deepening my skills in React, Tailwind CSS, and modern frontend architecture.",
+    ctaProjects: "View projects",
+    ctaAbout: "Learn more about me",
   },
+
   about: {
     heading: "About me",
     text: `
 I am an aspiring frontend web developer with a background in education.
-I build structured, clear and user-friendly interfaces.
+
+Through my work as a primary school teacher, I developed a strong ability to structure complex
+content clearly, communicate effectively, and consistently focus on user needs. I now apply these
+skills to building modern web applications.
+
+I am currently training as a web developer and working with React, Tailwind CSS and modern web
+technologies.
     `,
   },
 };
