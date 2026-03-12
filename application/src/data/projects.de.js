@@ -1,4 +1,4 @@
-export const projects = [
+export const projectsDE = [
   {
     title: "Lernplattform für Grundschulkinder",
     description:
