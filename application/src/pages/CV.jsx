@@ -65,6 +65,16 @@ export default function CV() {
           {renderEntries("education", cv.education)}
         </section>
       </div>
+      <a
+        href="/about/cv/print"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-sm underline block text-center mb-12 mt-12"
+      >
+        {language === "de"
+          ? "Lebenslauf drucken / als PDF speichern"
+          : "Print CV / Save as PDF"}
+      </a>
     </section>
   );
 }
