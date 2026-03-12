@@ -1,15 +1,38 @@
+import { NavLink } from "react-router-dom";
+
+const linkClass = "hover:underline transition";
+
+const activeClass = "underline font-semibold";
+
 export default function Nav() {
   return (
     <nav className="flex gap-6 font-medium">
-      <a href="/" className="hover:underline">
+      <NavLink
+        to="/"
+        className={({ isActive }) =>
+          `${linkClass} ${isActive ? activeClass : ""}`
+        }
+      >
         Home
-      </a>
-      <a href="/projects" className="hover:underline">
+      </NavLink>
+
+      <NavLink
+        to="/projects"
+        className={({ isActive }) =>
+          `${linkClass} ${isActive ? activeClass : ""}`
+        }
+      >
         Projects
-      </a>
-      <a href="/about" className="hover:underline">
+      </NavLink>
+
+      <NavLink
+        to="/about"
+        className={({ isActive }) =>
+          `${linkClass} ${isActive ? activeClass : ""}`
+        }
+      >
         About
-      </a>
+      </NavLink>
     </nav>
   );
 }
