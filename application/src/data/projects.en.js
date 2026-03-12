@@ -2,13 +2,27 @@ export const projectsEN = [
   {
     title: "Learning Platform for Primary School Children",
     description:
-      "Interactive learning platform with a strong focus on clear structure, accessibility, and child-friendly user guidance.",
-    tech: ["React", "Tailwind", "JavaScript"],
+      "This learning platform was developed with a strong focus on clear structure and intuitive access for children. Emphasis was placed on understandable user guidance, simple navigation, and a calm, well-organized design.",
+    learnings:
+      "Designing user-centered interfaces, working with React components, and structuring UI logic clearly.",
+    tech: ["React", "Tailwind CSS", "JavaScript"],
   },
   {
     title: "Tarot Card Web Application",
     description:
-      "Creative React application featuring dynamic state management and a custom user interface.",
-    tech: ["React", "CSS", "JavaScript"],
+      "A creative web application from an early learning phase, focusing on expressive visual design and playful user interaction. The application consists of multiple HTML pages and makes extensive use of native CSS for layout and styling.",
+    learnings:
+      "Working with multiple HTML pages, intensive use of native CSS, understanding layouts, selectors, styling techniques, and visual effects, as well as early experience with structured frontend development.",
+    tech: ["HTML", "CSS", "JavaScript"],
+    link: "",
+  },
+  {
+    title: "Schlaupause – Learning Platform for Children",
+    description:
+      "Schlaupause is a collaborative project developed together with a friend. The goal is to provide children with a playful yet structured access to learning content, with a strong focus on clear navigation, calm design, and age-appropriate user guidance.",
+    learnings:
+      "Collaborative teamwork, joint feature planning, UI decision-making, and implementing React applications in a shared development process.",
+    tech: ["React", "Tailwind CSS", "JavaScript"],
+    link: "https://github.com/imkehoegden/schlaupause",
   },
 ];
