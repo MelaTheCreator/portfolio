@@ -8,7 +8,7 @@ export const projectsDE = [
     tech: ["React", "Tailwind CSS", "JavaScript"],
   },
   {
-    title: "Taro-Karten Webanwendung",
+    title: "Tarot-Karten Webanwendung",
     description:
       "Eine kreative Webanwendung aus einer frühen Lernphase, bei der der Fokus auf ausgefallenem, detailreichem Design und spielerischer Nutzerinteraktion lag. Die Anwendung besteht aus mehreren HTML-Seiten und nutzt umfangreiches natives CSS zur Gestaltung.",
     learnings:

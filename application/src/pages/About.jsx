@@ -9,7 +9,6 @@ export default function About() {
   return (
     <section className="px-6 py-20 max-w-5xl mx-auto">
       <div className="grid gap-12 md:grid-cols-2 items-start">
-        {/* Image */}
         <div>
           <img
             src={profileImg}
@@ -22,7 +21,6 @@ export default function About() {
           />
         </div>
 
-        {/* Text */}
         <div>
           <h2 className="text-3xl font-bold mb-6">{about.heading}</h2>
 
@@ -30,7 +28,6 @@ export default function About() {
             {about.text}
           </p>
 
-          {/* Personal details */}
           <ul className="text-sm space-y-2 opacity-80 mb-8">
             <li>
               <strong>{language === "de" ? "Name:" : "Name:"}</strong> Melanie
@@ -52,7 +49,6 @@ export default function About() {
             </li>
           </ul>
 
-          {/* CV link */}
           <Link to="/about/cv" className="underline text-sm inline-block">
             {language === "de" ? "Lebenslauf ansehen" : "View CV"}
           </Link>

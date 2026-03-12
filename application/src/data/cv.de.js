@@ -19,7 +19,7 @@ export const cvDE = {
       },
       {
         role: "Grundschullehrerin",
-        place: "verschiedene Grundschulen in Leipzig",
+        place: "Grundschulen in Leipzig",
         period: "2022 – 2025",
         skills: [
           "Strukturierung komplexer Inhalte",
@@ -38,16 +38,6 @@ export const cvDE = {
           "Kommunikation mit Kund:innen",
         ],
       },
-      {
-        role: "Wissenschaftliche Hilfskraft",
-        place: "Universität Leipzig",
-        period: "2018 – 2019",
-        skills: [
-          "Analytisches und strukturiertes Denken",
-          "Recherche und Aufbereitung von Informationen",
-          "Selbstständige Arbeitsweise",
-        ],
-      },
     ],
   },
 
@@ -62,8 +52,8 @@ export const cvDE = {
         period: "Abschluss 2022",
         skills: [
           "Didaktische Planung und Evaluation",
-          "Methodisch-strukturiertes Arbeiten",
           "Reflexion und Weiterentwicklung eigener Arbeitsprozesse",
+          "Strukturiertes und verantwortungsvolles Arbeiten",
         ],
       },
       {
@@ -72,8 +62,8 @@ export const cvDE = {
         period: "Abschluss 2019",
         skills: [
           "Analytisches Denken und Argumentationsfähigkeit",
-          "Strukturierte Texterschließung",
           "Ethik, Verantwortung und gesellschaftliche Zusammenhänge",
+          "Strukturierte Texterschließung",
         ],
       },
       {
@@ -81,8 +71,56 @@ export const cvDE = {
         place: "Gutenberg-Gymnasium Erfurt",
         period: "Abschluss 2011",
         skills: [
-          "Grundlegende wissenschaftliche Arbeitsweisen",
           "Selbstorganisation und Lernkompetenz",
+          "Grundlegende wissenschaftliche Arbeitsweisen",
+        ],
+      },
+    ],
+  },
+
+  additional: {
+    title: "Weitere Erfahrungen",
+    intro:
+      "Diese Tätigkeiten wurden parallel zu Schule oder Studium ausgeübt und verdeutlichen meine Belastbarkeit, mein langfristiges Engagement sowie meine Fähigkeit, unterschiedliche Rollen gleichzeitig verantwortungsvoll auszufüllen.",
+    entries: [
+      {
+        role: "Wissenschaftliche Hilfskraft",
+        place: "Philosophische Fakultät, Universität Leipzig",
+        period: "2018 – 2019",
+        skills: [
+          "Analytisches Denken",
+          "Recherche und Aufbereitung wissenschaftlicher Inhalte",
+          "Selbstständiges und strukturiertes Arbeiten",
+        ],
+      },
+      {
+        role: "Theaterspielplatzleitung",
+        place: "Theater der Jungen Welt Leipzig",
+        period: "2017 – 2018",
+        skills: [
+          "Arbeit mit Kindern und Gruppen",
+          "Organisation und Betreuung kreativer Angebote",
+          "Verantwortungsübernahme in kulturellen Kontexten",
+        ],
+      },
+      {
+        role: "Teamerin für Antidiskriminierungsarbeit",
+        place: "Rosaline e.V. & Different People e.V.",
+        period: "2013 – 2018",
+        skills: [
+          "Moderation von Workshops",
+          "Sensibler Umgang mit gesellschaftlichen Themen",
+          "Empathie, Verantwortung und Kommunikationsstärke",
+        ],
+      },
+      {
+        role: "Museumsführerin",
+        place: "Stiftung Weimarer Klassik",
+        period: "2009 – 2012",
+        skills: [
+          "Vermittlung kultureller Inhalte",
+          "Freies Sprechen und Präsentation",
+          "Arbeit mit sehr unterschiedlichen Zielgruppen",
         ],
       },
     ],

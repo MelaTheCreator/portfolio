@@ -19,12 +19,12 @@ export const cvEN = {
       },
       {
         role: "Primary School Teacher",
-        place: "Various primary schools in Leipzig",
+        place: "Primary schools in Leipzig",
         period: "2022 – 2025",
         skills: [
           "Structuring complex content",
-          "Adapting information for different target groups",
-          "Clear and effective communication",
+          "Adapting information for different audiences",
+          "Clear communication",
           "Organization and project management",
         ],
       },
@@ -34,18 +34,8 @@ export const cvEN = {
         period: "2019 – 2020",
         skills: [
           "Structured work with data",
-          "High level of accuracy and reliability",
+          "High accuracy and reliability",
           "Customer communication",
-        ],
-      },
-      {
-        role: "Student Research Assistant",
-        place: "University of Leipzig",
-        period: "2018 – 2019",
-        skills: [
-          "Analytical and structured thinking",
-          "Research and information structuring",
-          "Independent working style",
         ],
       },
     ],
@@ -62,8 +52,8 @@ export const cvEN = {
         period: "Completed 2022",
         skills: [
           "Didactic planning and evaluation",
-          "Methodical and structured working style",
-          "Reflection and continuous improvement of workflows",
+          "Reflective professional development",
+          "Structured and responsible working style",
         ],
       },
       {
@@ -71,9 +61,9 @@ export const cvEN = {
         place: "University of Leipzig",
         period: "Completed 2019",
         skills: [
-          "Analytical thinking and argumentation skills",
+          "Analytical thinking and argumentation",
+          "Ethical and social responsibility",
           "Structured text analysis",
-          "Ethical responsibility and social awareness",
         ],
       },
       {
@@ -81,8 +71,56 @@ export const cvEN = {
         place: "Gutenberg Gymnasium Erfurt",
         period: "Completed 2011",
         skills: [
-          "Fundamental academic working methods",
           "Self-organization and learning competence",
+          "Fundamental academic working methods",
+        ],
+      },
+    ],
+  },
+
+  additional: {
+    title: "Additional Experience",
+    intro:
+      "These roles were carried out alongside school or university and highlight resilience, long-term commitment, and the ability to manage multiple responsibilities.",
+    entries: [
+      {
+        role: "Student Research Assistant",
+        place: "Faculty of Philosophy, University of Leipzig",
+        period: "2018 – 2019",
+        skills: [
+          "Analytical thinking",
+          "Research and academic content preparation",
+          "Independent and structured working style",
+        ],
+      },
+      {
+        role: "Theatre Playground Supervisor",
+        place: "Theater der Jungen Welt Leipzig",
+        period: "2017 – 2018",
+        skills: [
+          "Working with children and groups",
+          "Organizing creative activities",
+          "Responsibility in cultural settings",
+        ],
+      },
+      {
+        role: "Anti-Discrimination Workshop Facilitator",
+        place: "Rosaline e.V. & Different People e.V.",
+        period: "2013 – 2018",
+        skills: [
+          "Workshop facilitation",
+          "Handling sensitive social topics",
+          "Empathy and strong communication skills",
+        ],
+      },
+      {
+        role: "Museum Guide",
+        place: "Weimar Classicism Foundation",
+        period: "2009 – 2012",
+        skills: [
+          "Presenting cultural content",
+          "Public speaking",
+          "Working with diverse audiences",
         ],
       },
     ],

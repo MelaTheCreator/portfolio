@@ -137,3 +137,18 @@ strong {
 p {
   margin-bottom: 0.5rem;
 }
+
+@media print {
+  body {
+    -webkit-print-color-adjust: exact;
+  }
+
+  button {
+    display: none;
+  }
+
+  main {
+    background: white;
+    color: black;
+  }
+}

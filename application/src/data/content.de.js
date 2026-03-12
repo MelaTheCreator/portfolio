@@ -1,25 +1,21 @@
 export const contentDE = {
   home: {
-    title: "Frontend-Webentwicklerin",
+    title: "Frontend Webentwicklerin",
     subtitle:
-      "Klar strukturierte, zugängliche Webanwendungen mit React und modernen Webtechnologien.",
+      "Quereinsteigerin mit pädagogischem Hintergrund – Fokus auf klare und zugängliche Webanwendungen.",
     intro:
-      "Mit einem beruflichen Hintergrund im Bildungsbereich bringe ich Struktur, Kommunikationsstärke und ein hohes Bewusstsein für Nutzerbedürfnisse in die Webentwicklung ein. Aktuell vertiefe ich meine Fähigkeiten in React, Tailwind CSS und moderner Frontend-Architektur.",
+      "Mit einem professionellen Hintergrund in der Bildung bringe ich strukturiertes Denken, starke Kommunikationsfähigkeiten und einen klaren Fokus auf die Bedürfnisse der Nutzer in die Webentwicklung ein. Derzeit vertiefe ich meine Kenntnisse in React, Tailwind CSS und moderner Frontend-Architektur.",
     ctaProjects: "Projekte ansehen",
-    ctaAbout: "Mehr über mich",
+    ctaAbout: "Mehr über mich erfahren",
   },
-
   about: {
     heading: "Über mich",
     text: `
 Ich bin angehende Frontend-Webentwicklerin mit einem Hintergrund im Bildungsbereich.
 
-Durch meine Arbeit als Grundschullehrerin habe ich gelernt, komplexe Inhalte klar zu strukturieren,
-verständlich zu vermitteln und konsequent nutzerorientiert zu denken. Diese Fähigkeiten bringe ich
-heute in die Entwicklung moderner Webanwendungen ein.
+Durch meine Arbeit als Grundschullehrerin habe ich gelernt, komplexe Inhalte klar zu strukturieren, verständlich zu vermitteln und stets nutzerorientiert zu denken. Diese Fähigkeiten bringe ich heute in die Entwicklung moderner Webanwendungen ein.
 
-Aktuell absolviere ich eine Weiterbildung zur Webentwicklerin und arbeite mit React, Tailwind CSS
-und modernen Webtechnologien.
+Aktuell absolviere ich eine Weiterbildung zur Webentwicklerin und arbeite mit React, Tailwind CSS und modernen Webtechnologien.
     `,
   },
 };
