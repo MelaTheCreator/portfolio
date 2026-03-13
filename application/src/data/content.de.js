@@ -4,7 +4,7 @@ export const contentDE = {
     subtitle:
       "Quereinsteigerin mit pädagogischem Hintergrund – Fokus auf klare und zugängliche Webanwendungen.",
     intro:
-      "Mit einem professionellen Hintergrund in der Bildung bringe ich strukturiertes Denken, starke Kommunikationsfähigkeiten und einen klaren Fokus auf die Bedürfnisse der Nutzer in die Webentwicklung ein. Derzeit vertiefe ich meine Kenntnisse in React, Tailwind CSS und moderner Frontend-Architektur.",
+      "Mit einem professionellen Hintergrund in der Bildung bringe ich strukturiertes Denken, starke Kommunikationsfähigkeiten und einen klaren Fokus auf die Bedürfnisse der Nutzer in die Webentwicklung ein. Derzeit vertiefe ich meine Kenntnisse in React, Tailwind CSS, Javascript, Typescript, SQL und moderner Frontend-Architektur.",
     ctaProjects: "Projekte ansehen",
     ctaAbout: "Mehr über mich erfahren",
   },

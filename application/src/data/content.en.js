@@ -4,7 +4,7 @@ export const contentEN = {
     subtitle:
       "Building clear, accessible web applications with React and modern web technologies.",
     intro:
-      "With a professional background in education, I bring structured thinking, strong communication skills, and a clear focus on user needs into web development. I am currently deepening my skills in React, Tailwind CSS, and modern frontend architecture.",
+      "With a professional background in education, I bring structured thinking, strong communication skills, and a clear focus on user needs into web development. I am currently deepening my skills in React, Tailwind CSS, Javascript, Typescript, SQL and modern frontend architecture.",
     ctaProjects: "View projects",
     ctaAbout: "Learn more about me",
   },
