@@ -17,9 +17,10 @@ I am an aspiring frontend web developer with a background in education.
 Through my work as a primary school teacher, I developed a strong ability to structure complex
 content clearly, communicate effectively, and consistently focus on user needs. I now apply these
 skills to building modern web applications.
-
-I am currently training as a web developer and working with React, Tailwind CSS and modern web
-technologies.
-    `,
+ `,
+    contact: {
+      linkedin: "https://www.linkedin.com/in/mela-heß-1695ab3a7/",
+      github: "https://github.com/MelaTheCreator",
+    },
   },
 };

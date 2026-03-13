@@ -1,11 +1,13 @@
 export const projectsEN = [
   {
-    title: "Learning Platform for Primary School Children",
+    title: "Schlaupause – Learning Platform for Children",
     description:
-      "This learning platform was developed with a strong focus on clear structure and intuitive access for children. Emphasis was placed on understandable user guidance, simple navigation, and a calm, well-organized design.",
+      "Schlaupause is a collaborative project developed together with a friend. The goal is to provide children with a playful yet structured access to learning content, with a strong focus on clear navigation, calm design, and age-appropriate user guidance.",
     learnings:
-      "Designing user-centered interfaces, working with React components, and structuring UI logic clearly.",
+      "Collaborative teamwork, joint feature planning, UI decision-making, and implementing React applications in a shared development process.",
     tech: ["React", "Tailwind CSS", "JavaScript"],
+    link: "https://github.com/imkehoegden/schlaupause",
+    site: "https://imkehoegden.github.io/schlaupause/",
   },
   {
     title: "Tarot Card Web Application",
@@ -15,14 +17,5 @@ export const projectsEN = [
       "Working with multiple HTML pages, intensive use of native CSS, understanding layouts, selectors, styling techniques, and visual effects, as well as early experience with structured frontend development.",
     tech: ["HTML", "CSS", "JavaScript"],
     link: "",
-  },
-  {
-    title: "Schlaupause – Learning Platform for Children",
-    description:
-      "Schlaupause is a collaborative project developed together with a friend. The goal is to provide children with a playful yet structured access to learning content, with a strong focus on clear navigation, calm design, and age-appropriate user guidance.",
-    learnings:
-      "Collaborative teamwork, joint feature planning, UI decision-making, and implementing React applications in a shared development process.",
-    tech: ["React", "Tailwind CSS", "JavaScript"],
-    link: "https://github.com/imkehoegden/schlaupause",
   },
 ];

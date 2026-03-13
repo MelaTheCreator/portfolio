@@ -41,7 +41,7 @@ export default function Footer() {
         origin: { y: 0.6 },
       });
     } else {
-      console.log("Do you know the Konami-Code?");
+      console.log("You may touch the carrot, if you know the Konami-Code?");
       alert(
         "Don’t touch my carrot, unless you know how the bunny hops...up, up, down...?",
       );

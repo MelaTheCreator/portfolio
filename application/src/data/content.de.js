@@ -14,8 +14,10 @@ export const contentDE = {
 Ich bin angehende Frontend-Webentwicklerin mit einem Hintergrund im Bildungsbereich.
 
 Durch meine Arbeit als Grundschullehrerin habe ich gelernt, komplexe Inhalte klar zu strukturieren, verständlich zu vermitteln und stets nutzerorientiert zu denken. Diese Fähigkeiten bringe ich heute in die Entwicklung moderner Webanwendungen ein.
-
-Aktuell absolviere ich eine Weiterbildung zur Webentwicklerin und arbeite mit React, Tailwind CSS und modernen Webtechnologien.
-    `,
+ `,
+    contact: {
+      linkedin: "https://www.linkedin.com/in/mela-heß-1695ab3a7/",
+      github: "https://github.com/MelaTheCreator",
+    },
   },
 };
