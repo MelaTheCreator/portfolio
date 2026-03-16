@@ -16,6 +16,7 @@ export const projectsEN = [
     learnings:
       "Working with multiple HTML pages, intensive use of native CSS, understanding layouts, selectors, styling techniques, and visual effects, as well as early experience with structured frontend development.",
     tech: ["HTML", "CSS", "JavaScript"],
-    link: "",
+    link: "https://github.com/MelaTheCreator/Tarot",
+    site: "",
   },
 ];
