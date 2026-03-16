@@ -10,7 +10,7 @@ export default function ThemeToggle() {
                  bg-white text-black
                  dark:bg-gray-800 dark:text-white"
     >
-      {theme === "light" ? "🌙 Dark" : "☀️ Light"}
+      {theme === "light" ? "🌙" : "☀️"}
     </button>
   );
 }
