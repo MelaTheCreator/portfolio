@@ -1,4 +1,4 @@
-import { HashRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./components/Layout";
 import CVPrint from "./pages/CVPrint";
 import Home from "./pages/Home";
@@ -8,7 +8,7 @@ import CV from "./pages/CV";
 
 export default function App() {
   return (
-    <HashRouter>
+    <BrowserRouter>
       <Routes>
         <Route element={<Layout />}>
           <Route path="/" element={<Home />} />
@@ -18,6 +18,6 @@ export default function App() {
           <Route path="/projects" element={<Projects />} />
         </Route>
       </Routes>
-    </HashRouter>
+    </BrowserRouter>
   );
 }
