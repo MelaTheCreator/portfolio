@@ -48,7 +48,7 @@ export default function Nav() {
       </button>
 
       {open && (
-        <div className="absolute left-0 mt-4 flex flex-col gap-4  bg-white dark:bg-gray-800 p-4 shadow-md rounded-md md:hidden min-w-[110px]">
+        <div className="absolute left-0 mt-4 flex flex-col gap-4  bg-white dark:bg-gray-800 p-4 shadow-md rounded-md md:hidden min-w-[110px] z-50">
           {links.map((link) => (
             <NavLink
               key={link.to}
