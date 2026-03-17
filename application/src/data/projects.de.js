@@ -17,6 +17,6 @@ export const projectsDE = [
       "Arbeit mit mehreren HTML-Seiten, intensiver Einsatz von nativem CSS, Verständnis für Layout, Styling, Selektoren und visuelle Effekte sowie erste Erfahrungen mit strukturiertem Frontend-Aufbau.",
     tech: ["HTML", "CSS", "JavaScript"],
     link: "https://github.com/MelaTheCreator/Tarot",
-    site: "",
+    site: "https://tarot-blond-six.vercel.app/",
   },
 ];
