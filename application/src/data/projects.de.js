@@ -1,5 +1,9 @@
+import schlaupauseImg from "../assets/SchlaupausePreview.png";
+import tarotImg from "../assets/TarotPreview.png";
+
 export const projectsDE = [
   {
+    picture: schlaupauseImg,
     title: "Schlaupause – Lernplattform für Kinder",
     description:
       "Schlaupause ist ein gemeinsames Projekt, das in Zusammenarbeit mit einer Freundin entsteht. Ziel ist es, Kindern einen spielerischen und gleichzeitig strukturierten Zugang zu Lerninhalten zu ermöglichen. Besonderer Wert wird auf eine klare Navigation, ruhige Gestaltung und altersgerechte Nutzerführung gelegt.",
@@ -10,6 +14,7 @@ export const projectsDE = [
     site: "https://imkehoegden.github.io/schlaupause/",
   },
   {
+    picture: tarotImg,
     title: "Tarot-Karten Webanwendung",
     description:
       "Eine kreative Webanwendung aus einer frühen Lernphase, bei der der Fokus auf ausgefallenem, detailreichem Design und spielerischer Nutzerinteraktion lag. Die Anwendung besteht aus mehreren HTML-Seiten und nutzt umfangreiches natives CSS zur Gestaltung.",

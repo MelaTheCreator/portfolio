@@ -1,5 +1,9 @@
+import schlaupauseImg from "../assets/SchlaupausePreview.png";
+import tarotImg from "../assets/TarotPreview.png";
+
 export const projectsEN = [
   {
+    picture: schlaupauseImg,
     title: "Schlaupause – Learning Platform for Children",
     description:
       "Schlaupause is a collaborative project developed together with a friend. The goal is to provide children with a playful yet structured access to learning content, with a strong focus on clear navigation, calm design, and age-appropriate user guidance.",
@@ -10,6 +14,7 @@ export const projectsEN = [
     site: "https://imkehoegden.github.io/schlaupause/",
   },
   {
+    picture: tarotImg,
     title: "Tarot Card Web Application",
     description:
       "A creative web application from an early learning phase, focusing on expressive visual design and playful user interaction. The application consists of multiple HTML pages and makes extensive use of native CSS for layout and styling.",
