@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
 import CV from "./pages/CV";
+import Impressum from "./pages/Impressum";
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
           <Route path="/about/cv" element={<CV />} />
           <Route path="/about/cv/print" element={<CVPrint />} />
           <Route path="/projects" element={<Projects />} />
+          <Route path="/impressum" element={<Impressum />} />
         </Route>
       </Routes>
     </BrowserRouter>

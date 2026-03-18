@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import confetti from "canvas-confetti";
 
 export default function Footer() {
@@ -49,14 +50,22 @@ export default function Footer() {
   };
 
   return (
-    <footer className="px-6 py-6 text-sm text-center opacity-70 flex items-center justify-center gap-2">
-      <button
-        onClick={handleCarrotClick}
-        className="inline-flex items-center transition-transform duration-200 hover:scale-110"
-      >
-        <img src="/moehre.webp" alt="icon" className="w-9 h-6" />
-      </button>{" "}
-      {new Date().getFullYear()} Melanie Heß
+    <footer className="px-6 py-6 text-sm text-center opacity-70 flex flex-col gap-5">
+      <div className="flex  justify-between gap-2 w-">
+        <button
+          onClick={handleCarrotClick}
+          className="inline-flex items-center transition-transform duration-200 hover:scale-110"
+        >
+          <img src="/moehre.webp" alt="icon" className="w-9 h-6" />
+        </button>
+        <span>{new Date().getFullYear()} Melanie Heß</span>
+        <Link
+          to="/impressum"
+          className="underline-offset-4 hover:opacity-100 transition"
+        >
+          Impressum
+        </Link>
+      </div>
     </footer>
   );
 }
