@@ -1,7 +1,19 @@
 import schlaupauseImg from "../assets/SchlaupausePreview.png";
 import tarotImg from "../assets/TarotPreview.png";
+import gutenTalk from "../assets/gutenTalk.png";
 
 export const projectsDE = [
+  {
+    picture: gutenTalk,
+    title: "GutenTalk – Webanwendung zum gemeinsamen Lesen",
+    description:
+      "GutenTalk ist eine Webanwendung, die es ermöglicht, gemeinsam und kostenlos Bücher zu lesen und zu diskutieren.",
+    learnings:
+      "Deployment einer React-Anwendung, Websockets, Authentifizierung, AI-Integration, Fullstackprojekt.",
+    tech: ["React", "Tailwind CSS", "JavaScript"],
+    link: "https://github.com/MelaTheCreator/bookchat",
+    site: "https://www.guten-talk.de/",
+  },
   {
     picture: schlaupauseImg,
     title: "Schlaupause – Lernplattform für Kinder",

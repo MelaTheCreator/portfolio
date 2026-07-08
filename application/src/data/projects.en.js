@@ -3,6 +3,17 @@ import tarotImg from "../assets/TarotPreview.png";
 
 export const projectsEN = [
   {
+    picture: gutenTalkImg,
+    title: "GutenTalk – Web Application for Shared Reading",
+    description:
+      "GutenTalk is a web application that allows users to read and discuss books together for free.",
+    learnings:
+      "Deployment of a React application, WebSockets, authentication, AI integration, fullstack project.",
+    tech: ["React", "Tailwind CSS", "JavaScript"],
+    link: "https://github.com/MelaTheCreator/bookchat",
+    site: "https://www.guten-talk.de/",
+  },
+  {
     picture: schlaupauseImg,
     title: "Schlaupause – Learning Platform for Children",
     description:
