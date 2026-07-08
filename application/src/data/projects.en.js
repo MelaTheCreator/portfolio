@@ -1,5 +1,6 @@
 import schlaupauseImg from "../assets/SchlaupausePreview.png";
 import tarotImg from "../assets/TarotPreview.png";
+import gutenTalkImg from "../assets/gutenTalk.png";
 
 export const projectsEN = [
   {
